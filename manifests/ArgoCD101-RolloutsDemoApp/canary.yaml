@@ -91,4 +91,19 @@ spec:
               service:
                 name: canary-demo
                 port:
-                  number: 8178
+                  number: 817
+---
+
+apiVersion: contoso.com/v1alpha1
+kind: MyPlatform
+metadata:
+ name: test-dotnet-app
+ labels:
+    app.kubernetes.io/instance: testprj
+spec:
+ appId: testdotnetapp
+ language: csharp
+ os: linux
+ instanceSize: small
+ environmentType: dev
+ replicas: 1
