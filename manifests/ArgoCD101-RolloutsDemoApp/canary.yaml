@@ -94,7 +94,7 @@ spec:
                   number: 817
 ---
 
-apiVersion: contoso.com/v1alpha1
+apiVersion: contoso.com/v1alpha12
 kind: MyPlatform
 metadata:
  name: test-dotnet-app
