@@ -99,7 +99,7 @@ kind: MyPlatform
 metadata:
  name: test-dotnet-app
  labels:
-    app.kubernetes.io/instance: testprj
+    app.kubernetes.io/instance: test
 spec:
  appId: testdotnetapp
  language: csharp
