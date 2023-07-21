@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
-  name: canary-demo
+  name: argocd-applicationset-controller
 spec:
   replicas: 5
   revisionHistoryLimit: 1
